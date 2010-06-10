@@ -1,0 +1,49 @@
+--- !ruby/object:Gem::Specification 
+rubygems_version: 0.8.10
+specification_version: 1
+name: risc
+version: !ruby/object:Gem::Version 
+  version: 0.0.2
+date: 2006-08-31
+summary: Risc (Ruby dISCrete) is a lightweight discrete event simulator for Ruby.
+require_paths: 
+  - lib
+email: dcutting@soyabean.com.au
+homepage: http://soyabean.com.au
+rubyforge_project: 
+description: 
+autorequire: risc
+default_executable: 
+bindir: bin
+has_rdoc: true
+required_ruby_version: !ruby/object:Gem::Version::Requirement 
+  requirements: 
+    - 
+      - ">"
+      - !ruby/object:Gem::Version 
+        version: 0.0.0
+  version: 
+platform: ruby
+authors: 
+  - Dan Cutting
+files: 
+  - bin/Sample.rb
+  - lib/risc
+  - lib/risc.rb
+  - lib/risc/Event.rb
+  - lib/risc/Process.rb
+  - lib/risc/ProcessWithPid.rb
+  - lib/risc/Sim.rb
+  - README
+  - AUTHORS
+  - GPL
+test_files: []
+rdoc_options: []
+extra_rdoc_files: 
+  - README
+  - AUTHORS
+  - GPL
+executables: []
+extensions: []
+requirements: []
+dependencies: []
